@@ -1,0 +1,13 @@
+eureka:
+  client:
+    register-with-eureka: false
+    # eureka.client.register-with-eureka: is given FALSE, because this application will work as an Eureka SERVER!
+    
+    fetch-registry: false
+    
+server:
+  port: 8761
+  
+spring:
+  application:
+    name: DEMO-EUREKA-SERVER 
